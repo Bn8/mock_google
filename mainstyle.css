@@ -13,13 +13,14 @@ body {
 }
 
 .header, .footer {
-    height: 40px;
+    height: 35px;
 	text-align:right;
 	padding-right: 30;
 	padding: 10 10 10 10;
 }
 
-.header {
+.footer {
+	background-color:#222;
 }
 
 /* header and footer blocks links */
@@ -79,10 +80,9 @@ body {
 }
 
 #img_squares {
-	vertical-align: middle;
-	display: table-cell;
+	padding-top:4px;
 	height: 15px;
-	width: auto;
+	width: 15;
 }
 
 #logo{
@@ -95,6 +95,8 @@ body {
 	width: 100%;
 	padding: 10 10 10 10;
 	margin-top:20px;
+	
+	box-shadow: 0px 0px 10px 3px rgba(255,255,0,1);
 }
 
 .center_elements input[type="button"] { /* instead of giving class to each button, i wrap it in div and access the buttons from there */
